@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width>>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <section class="container">
-        <section content-1>
-        <h1>weight converter:<br> Meter:<br> yards:<br> Feet:<br> Inches.</h1>
-        <p>week5Task</p>
-    </section>
-    <section class="content-2">
-    <h1>UNIT CONVETER</h1>
-    <p>
-        <label class="label-1">Meter converter</label>
-        <input type="number" id="meter" placeholder="Meter converter"> <br>       
-        <label class="label-2">Inches Conversion</label>
-        <input type="number" id="inches" placeholder="Inches converter"><br>
-        <label class="label-3">feet Conversion</label>
-        <input type="number" id="feet" placeholder="feet converter"><br>
-        <label class="label-4">Yards</label>
-        <input type="number"  id="yards" placeholder="yards converter">
-    </section>
-</section>
 
+   <section img id='bg'src="./bg">
+    <form>
+        <h1>SIGN UP </h1>
+        <label>FIRST NAME</label>
+        <input id="firstname" name="firstname" type="text" placeholder="firstname" minlenth="8" maxlength="12" required><br>
+        <label>LAST NAME</label>
+        <input id="lastname" name="lastname" type= "text" placeholder="lastname" maxlength="12" required><br>
+        <label>EMAIL ADRESS</label>
+        <input id="email" type="email" name="email" placeholder="somebody@example.com"><br>
+        <label>USERNAME</label>
+        <input id="username" type="text" placeholder="username"min="6" maxlength="8" pattern="[!@#$%^_-]{1}{0-9}[A-Za-z]{5,6}" required><br>
+        <label>PASSWORD</label>
+        <input id="password1" type="password" name="password1" placeholder="password" required><br>
+        <label>CONFIRM PASSWORD</label>
+        <input id="password2" type="password" name="passwors2" placeholder="re-type password" required><br>
+        <input id="submitbtn" type="submit">
+        
+    </form>
+    </section>
+
+
+    
+    
     <script src="./script.js"></script>
 </body>
 </html>
