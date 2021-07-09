@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    border-radius: 5px solid green;
+     
+        
+}
+decoration:boxDecoration{
+    border-radius: 7px;
+    color: green;
+}
+.content-2{
+    width: 600px;
+    background-color: black;
+    align-content: center;
+    height: 600px;
+}
+    h1{
+    font-size: 50px;
+   font-weight: 400;
+   font-family: serif;
+   color: white;
+   text-align: center;
+   
+}
+
+p{
+    font-size: 40px;
+    font-family:serif;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+}
+
+::placeholder{
+    
+font-size: 20px;
+    
+    }
+
+
+#meter{
+    background-color: blue;
+    height: 50px;
+    margin-left: 40px;
+}
+#inches{
+    background-color: green;
+    height: 50px;
+    margin-left: 1px;
+}
+#feet{
+    background-color: orangered;
+    height: 50px;
+    margin-left: 45px
+}
+#yards{
+    background-color: red;
+    height: 50px;
+    margin-left: 200px;
+}
+
+
